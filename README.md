@@ -15,7 +15,7 @@ Add following to `~/.bashrc`:
 
     . ~/somewhere/cdq/cdq.sourceme.bash
 
-## Tutorial: memorizing directories in global file
+## Tutorial
 
 Let's create a few directories:
 
