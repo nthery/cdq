@@ -5,7 +5,6 @@
 
 # The companion perl script should be in same directory.
 cdq_core="$(dirname "$(realpath "$BASH_SOURCE")")/cdq.pl"
-echo $cdq_core
 [[ -x "$cdq_core" ]] || { echo 1>&2 "cdq.pl not found => cdq not enabled"; return; }
 
 # Execute specified command, e.g. "cd /foo/bar" and on success memorise current
